@@ -101,7 +101,7 @@ int main(int argc, char* argv[])
 
 		if (ftell(file) < biggest_offset)
 		{
-			printf("Bad header (invalid data block size)\n");
+			printf("Invalid data-block size\n");
 			SAFE_EXIT(file);
 		}
 
